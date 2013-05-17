@@ -1,0 +1,92 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.ext-el-mask { 
+	background-color: #000; 
+	opacity: 0.75;
+}
+
+.x-tbar-loading { 
+	background-image: url('../images/refresh.gif') !important; 
+}
+
+ul.x-tab-strip-top { 
+	border: none; 
+}
+
+.x-tab-panel-body { 
+	border: medium none; 
+}
+
+.x-layout-collapsed {
+	background-color:#f7f7f7; 
+	border-color:#f17400; 
+	color: #fff;
+}
+
+.x-window-tl .x-window-header {
+	-x-system-font:none;
+	color:#000;
+	font-family:tahoma,arial,verdana,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+}
+
+.x-window-tc {
+	background: url('../img/btnBlueBg.jpg') repeat-x left top;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 0 0 5px;
+	color: #fff;
+}
+.x-window-header-text {
+	cursor: pointer;
+	color: #fff;
+	padding-left: 7px;
+}
+
+.innerWindow {
+	padding: 10px;
+	max-width: 370px;
+}
+.innerWindow form {
+	padding: 0;
+	margin: 0;
+}
+.innerWindow td.tdInput {
+	padding: 0 10px 0 0;
+}
+.x-tool-close {
+	margin-right: 7px;
+}
+#importFiles {
+	background-color: #efefef;
+	border: 1px dotted #aeaeae; 
+	color: #aeaeae; 
+	height: 200px; 
+	line-height: 200px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#working {
+	width: 107px;
+    height: 107px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: 0 0 -53 -53px;
+	background-image: url('../img/images/progress_large.gif');
+	z-index: 5001;
+}
+.clickable{
+	cursor: pointer;
+	color: #005580;
+}
